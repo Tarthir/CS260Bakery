@@ -1,0 +1,40 @@
+.section {
+    color: #414141;
+    background-color: rgb(224, 221, 221);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #0f0f0f;
+    padding-bottom: 25px;
+}
+.reviews{
+  text-decoration: wavy;
+}
+
+body{
+    background-color: rgb(224, 221, 221);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(82, 59, 59)!important; 
+}
+.resize {
+    width: 70px;
+    height: auto;
+}
+
+.resize {
+    width: 70px;
+    height: auto;
+}
+
+  #nav1,
+  #nav2,
+  #nav3,
+  #nav4{
+      font-weight: bold;
+      text-align: center;
+      box-sizing: border-box;
+  }
+ 
