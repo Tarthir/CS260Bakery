@@ -48,9 +48,10 @@
     }
    */
     h1 {
-        border: 2px solid #F49F05;
+        border: 2px solid rgb(244, 53, 5);
         padding: 10px;
-        color: #233C67;
+        color: 233C67;
+        background-color: rgb(197, 100, 62);
         font-family: 'Bangers', cursive;
         text-align: center;
     }
@@ -81,6 +82,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        text-align: center;
     }
   
     .item {
@@ -88,6 +90,12 @@
         text-align: center;
         margin: 20px;
     }
+    .item-text{
+      border: 2px solid rgb(206, 44, 44);
+      text-align: center;
+      padding: 10px;
+    }
+
     img {
         
         height: 400px;
