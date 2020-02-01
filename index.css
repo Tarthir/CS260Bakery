@@ -1,118 +1,211 @@
-  
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
-      background-color: #F5CF8E;
-    }
-  }
-  
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    /* ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #F49F05;
-    }
-    
-    li {
-      float: left;
-      border-right:1px solid #bbb;
-      font-family: 'Bangers', cursive;
-      font-size: 20px;    
-    }
-    
-    li:last-child {
-      border-right: none;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover:not(.active) {
-      background-color: #F18904;
-    }
-    
-    .active {
-      background-color: #36688D;
-    }
-  
-    #css2 {
-        font-size: 20px;
-    }
-   */
-    h1 {
-        border: 2px solid rgb(244, 53, 5);
-        padding: 10px;
-        color: 233C67;
-        background-color: rgb(197, 100, 62);
-        font-family: 'Bangers', cursive;
-        text-align: center;
-    }
-  
-    p {
-      color: #233C67;
-      margin: 20px;
-      font-size: 20px;
-    }
-  
-    .grey-background {
-      background-color: grey;
-    }
-  
-    #text-center {
-        text-align: center;
-    }
-  
-    .container {
-        display: flex;
-        width: 100%;
-        /* border: 2px solid #F49F05; */
-        justify-content: space-evenly;
-    }
-  
-    .grid {
-        width:100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-  
-    .item {
-        border: 2px solid #F18904;
-        text-align: center;
-        margin: 20px;
-    }
-    .item-text{
-      border: 2px solid rgb(206, 44, 44);
-      text-align: center;
-      padding: 10px;
-    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #F49F05; */
+}
 
-    img {
-        
-        height: 400px;
-        width: 400px;
-    }
-    #logo {
-      height: 40px;
-      width: 40px;
-    }
-  
-  }
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+}
 
+li:last-child {
+  border-right: none;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+li a:hover:not(.active) {
+  background-color: #f18904;
+}
 
-    /* Mobile Styles */
+.active {
+  background-color: #36688d;
+}
+
+#css2 {
+  font-size: 20px;
+}
+
+#logo {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar-brand {
+  font-family: "Bangers", cursive;
+}
+
+h1 {
+  border: 2px solid #f18904;
+  padding: 10px;
+  color: white;
+  background-color: #f49f05;
+  font-family: "Bangers", cursive;
+  text-align: center;
+}
+
+p {
+  color: #233c67;
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Bangers", cursive;
+}
+div > p {
+  font-size: 35px;
+}
+.grey-background {
+  background-color: grey;
+}
+
+#text-center {
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.item {
+  border: 2px solid #f18904;
+  text-align: center;
+  margin: 20px;
+}
+.item-text {
+  border: 2px solid #f18904;
+  text-align: center;
+  padding: 10px;
+  font-family: "Bangers", cursive;
+}
+
+img {
+  height: 400px;
+  width: 100%;
+}
+
+/* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  
-    
+  img {
+    width: 100%;
   }
+  h1 {
+    font-size: 35px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+    font-family: "Bangers", cursive;
+    font-size: 20px;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #f18904;
+  }
+
+  .active {
+    background-color: #36688d;
+  }
+
+  #css2 {
+    font-size: 20px;
+  }
+
+  #logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .navbar-brand {
+    font-family: "Bangers", cursive;
+  }
+
+  h1 {
+    border: 2px solid #f18904;
+    padding: 10px;
+    color: white;
+    background-color: #f49f05;
+    font-family: "Bangers", cursive;
+    text-align: center;
+  }
+
+  p {
+    color: #233c67;
+    margin: 20px;
+    font-size: 20px;
+    font-family: "Bangers", cursive;
+  }
+
+  .grey-background {
+    background-color: grey;
+  }
+
+  #text-center {
+    text-align: center;
+  }
+
+  .grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .item {
+    border: 2px solid #f18904;
+    text-align: center;
+    margin: 20px;
+  }
+  .item-text {
+    border: 2px solid #f18904;
+    text-align: center;
+    padding: 10px;
+    font-family: "Bangers", cursive;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+  } */
+}
